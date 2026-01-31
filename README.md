@@ -15,7 +15,7 @@ echo "deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] h
  | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 ```
 
-**3. Instalar container da nvidia:**
+**3. Instalar container com o toolkit da NVIDIA:**
 ```
 sudo apt update
 sudo apt install -y nvidia-container-toolkit
